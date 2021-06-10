@@ -4,3 +4,15 @@
 
 module demo_1.
 
+{-
+--  triangle   \f
+--  star       \s
+--  forall     \a
+--  ->         \r
+-}
+
+
+data N : ★ =
+  | z: N
+  | s: N ➔ N.
+
